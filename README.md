@@ -27,7 +27,7 @@ I used 2 Titan Xp GPUs.
 
 ###  Accuracy Achieved on Test Dataset
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/iSarmad/Style-Transfer-Pytorch/blob/master/Result%20Images/wstyle%20one/Test/alpha1.png)
 
 
 
