@@ -19,10 +19,18 @@ requirements.txt contains the information about all the libraries needed. Open t
 I used 2 Titan Xp GPUs. 
 
 ### Dataset 
+Download datset by using the following link:
+```
+https://drive.google.com/open?id=1SHk8_gsnpmwUFlByAT73so_jm87JYv8g
+```
+Extract the dataset in the current directory. You should have dataset/train and dataset/test and respective subfolders
 
+### Pretrained-Vgg 
+The style transfer uses a pre-trained encoder and only the decoder is trained. Hence I provide the following vgg model. Download the model by using the following link:
 ```
-./data-local/bin/prepare_cifar10.sh
+https://drive.google.com/open?id=1kn_eVRJFsZHmATezUqNUpoxDnoh8tSXU
 ```
+Extract the model in the current directory. You should have models/vgg_normalized.pth
 
 ###  Accuracy Achieved on Test Dataset
 
