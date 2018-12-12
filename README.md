@@ -38,10 +38,6 @@ Extract the model in the current directory. You should have models/vgg_normalize
 
 
 
-## Running the Training 
-
-
-
 
 
 ## Visdom Visualization
@@ -54,6 +50,12 @@ Now you can start training or testing by running train.py or test.py. Visualize 
 ```
 http://localhost:8097/
 ```
+
+## Training and Testing 
+After doing all the above. 
+1. Run the train.py and observe visdom to see training progress.
+2. When training is complete run test.py and again observe visdom window to see style transfer results.
+3. Play with alpha and w_style to change the level of style transfer.
 
 
 ## License
