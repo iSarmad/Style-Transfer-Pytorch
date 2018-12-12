@@ -37,18 +37,22 @@ I used 2 Titan Xp GPUs.
 
 
 ## Visdom Visualization
-To Visualize on Tensorboard, use the following command 
+To Visualize on Visdom, use the following command 
 ```
-tensorboard --logdir=”path to ./ckpt”
+visdom
 ```
-Note that all the checkpoints are in the ./ckpt folder so simply start a tensorboard session to visualize it. Also all the saved checkpoints for student models are also saved there.
+Now you can start training or testing by running train.py or test.py. Visualize the output by going to the following address on your browser:
 
+```
+http://localhost:8097/
+```
 
 
 ## License
 
 This project is licensed under the MIT License. 
 For specific helper function used in this repository please see the license agreement of the Repo linked in Acknowledgement section
+
 ## Acknowledgments
 My implementation has been inspired from the following sources.
 
