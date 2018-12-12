@@ -32,7 +32,7 @@ https://drive.google.com/open?id=1kn_eVRJFsZHmATezUqNUpoxDnoh8tSXU
 ```
 Extract the model in the current directory. You should have models/vgg_normalized.pth
 
-###  Accuracy Achieved on Test Dataset
+###  Sample Style Transfer Results 
 
 ![alt text](https://github.com/iSarmad/Style-Transfer-Pytorch/blob/master/Result%20Images/wstyle%20one/Test/alpha1.png)
 
