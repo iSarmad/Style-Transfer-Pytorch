@@ -1,5 +1,5 @@
 # Image Style-Transfer-Pytorch
-This Repo is the implementation of the following papers
+This Repo is the implementation of the following paper:
 
 * [AdaIN](https://arxiv.org/abs/1703.06868) Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization
 
